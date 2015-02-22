@@ -53,7 +53,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4em;
     font-weight: 300;
-    background: #ccc;
+    background: #FCFCFC;
     color: #333;
     opacity: 0;
     transition: opacity 1s;
@@ -262,7 +262,7 @@ pre {
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #ccc;
+    background: rgba(255, 255, 255, 0);
     border-radius: 3px;
     color: #333;
     font-weight: 300;
@@ -988,7 +988,7 @@ a.subscribe {
 
 
 .dn-menu-small {
-    background-color: #ccc;
+    background-color: #fafafa;
     border-bottom: 1px solid #333;
     position: fixed;
     left: 0;
@@ -1115,10 +1115,10 @@ a.subscribe {
 
     .uimg-d {
         cursor: pointer;
-        background: url(icons/PH_Day_logo_70x62.png) no-repeat;
+        background: url(icons/logo-dark@1x.png) no-repeat;
         display: block;
         width: 70px;
-        height: 62px;
+        height: 215px;
         background-size: cover;
         background-position: center center;
         display: inline-block;
@@ -1126,10 +1126,10 @@ a.subscribe {
     
     .night .uimg-d { 
         cursor: pointer;
-        background: url(icons/PH_Night_logo_70x62.png) no-repeat;
+        background: url(icons/logo-light@1x.png) no-repeat;
         display: block;
         width: 70px;
-        height: 62px;
+        height: 215px;
         background-size: cover;
         background-position: center center;
         display: inline-block;
@@ -1205,25 +1205,25 @@ a.subscribe {
 (min-resolution: 192dppx) { 
     
     .dn-side-bar .uimg-d {
-        background: url(icons/PH_Day_logo_70x62_2x.png) no-repeat;
+        background: url(icons/logo-dark@1x.png) no-repeat;
         position: absolute;
         left: 25px;
-        bottom: 10px;
+        bottom: 25px;
         display: block;
         width: 70px;
-        height: 62px;
+        height: 215px;
         background-size: cover;
         background-position: center center;
     }
     
     .night .dn-side-bar .uimg-d {
-        background: url(icons/PH_Night_logo_70x62_2x.png) no-repeat;
+        background: url(icons/logo-light@1x.png) no-repeat;
         position: absolute;
         left: 25px;
-        bottom: 10px;
+        bottom: 25px;
         display: block;
         width: 70px;
-        height: 62px;
+        height: 215px;
         background-size: cover;
         background-position: center center;
     }
